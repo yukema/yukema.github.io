@@ -1,0 +1,9 @@
+title: "Yuke Ma"
+email: "yukema@mpi-inf.mpg.de"
+description: "PhD Candidate @ Max Planck Institute | AI, Networks & LLM Systems"
+baseurl: ""
+url: "https://yukema.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

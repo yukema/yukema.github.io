@@ -1,0 +1,81 @@
+/* Basic reset */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Colors */
+:root {
+  --primary: #1E3A8A;
+  --secondary: #4B5563;
+  --accent: #3B82F6;
+  --bg: #f9f9f9;
+  --text: #111;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: var(--primary);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: var(--secondary);
+}
+
+/* Skill bars */
+.skill {
+  margin: 10px 0;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.skill-bar {
+  width: 0;
+  height: 10px;
+  background-color: var(--accent);
+  transition: width 1.5s;
+  margin-top: 5px;
+}
+
+/* Projects & Publications */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Blog & Reading List */
+.blog-post {
+  margin: 20px 0;
+}
+
