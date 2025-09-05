@@ -1,5 +1,5 @@
-// Dynamic typing effect for hero section
-const words = ["AI Researcher", "Network Scientist", "LLM Systems Enthusiast"];
+// Hero 动态文字
+const words = ["Network & Distributed Systems Researcher", "Distributed Systems & AI", "Networking Protocols"];
 let i = 0;
 setInterval(() => {
   const el = document.getElementById("dynamic");
@@ -7,10 +7,11 @@ setInterval(() => {
   i++;
 }, 2000);
 
-// Skill bars animation
+// 动画技能条
 window.addEventListener("load", () => {
   document.querySelectorAll(".skill-bar").forEach(bar => {
     const level = bar.getAttribute("data-level");
     bar.style.width = level + "%";
   });
 });
+
